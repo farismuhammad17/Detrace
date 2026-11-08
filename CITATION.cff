@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If this software is used for research, development, or any usage purposes, please cite it below."
+authors:
+  - family-names: "Muhammad"
+    given-names: "Faris"
+    orcid: "https://orcid.org/0009-0003-4781-6541"
+title: "Detrace"
+version: "1.0.0"
+date-released: 2026-11-08
+url: "https://github.com/farismuhammad17/detrace"
+repository-code: "https://github.com/farismuhammad17/detrace"
+license: "Apache 2.0"
