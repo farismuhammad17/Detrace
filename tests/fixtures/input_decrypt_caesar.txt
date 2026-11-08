@@ -1,0 +1,1 @@
+detrace decrypt --text "P ohcl uv pklh dopjo Jhlzly thkl aopz" --model model/main --dictionary data/dictionary.txt

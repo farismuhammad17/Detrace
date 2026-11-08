@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "Gsrh rh zm Zgyzhs gvhg" --cipher atbash --dictionary data/dictionary.txt

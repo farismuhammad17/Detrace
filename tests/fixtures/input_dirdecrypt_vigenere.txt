@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "Myiu ml r nkgx tirlxi" --cipher vigenere --dictionary data/dictionary.txt --threshold 1

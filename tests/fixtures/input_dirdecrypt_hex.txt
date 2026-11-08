@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "546869732069732061206865782074657374" --cipher hex  --dictionary data/dictionary.txt

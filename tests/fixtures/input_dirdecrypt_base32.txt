@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "KRUGS4ZANFZSAYJAMJQXGZJTGIQHIZLTOQQHG5DSNFXGO===" --cipher base32  --dictionary data/dictionary.txt

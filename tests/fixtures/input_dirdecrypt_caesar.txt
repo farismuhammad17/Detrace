@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "P ohcl uv pklh dopjo Jhlzly thkl aopz" --cipher caesar_cipher --dictionary data/dictionary.txt

@@ -1,0 +1,1 @@
+detrace direct-decrypt --text "reve rehpic sselesu tsom eht si sihT" --cipher reverse --dictionary data/dictionary.txt

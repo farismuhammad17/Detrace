@@ -1,0 +1,1 @@
+detrace identify --text "KRUGS4ZANFZSAYJAMJQXGZJTGIQHIZLTOQ======" --model model/main --top 3

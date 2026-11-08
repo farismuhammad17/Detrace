@@ -1,0 +1,1 @@
+detrace decrypt --text "KRUGS4ZANFZSAYJAMJQXGZJTGIQHIZLTOQQHG5DSNFXGO===" --model model/main --dictionary data/dictionary.txt
