@@ -20,13 +20,16 @@ from pathlib import Path
 
 import pytest
 
-FIXTURES_DIR = Path(__file__).parent / "fixtures"
-input_files = sorted(FIXTURES_DIR.glob("input_*.txt"))
+BASE_DIR = Path(__file__).parent
+INPUT_DIR = BASE_DIR / "input"
+EXPECTED_DIR = BASE_DIR / "expected"
 
-@pytest.mark.parametrize("input_file", input_files, ids=lambda p: p.stem.replace("input_", ""))
-def test_cli_golden_output(input_file):
-    test_id = input_file.stem.replace("input_", "")
-    expected_file = FIXTURES_DIR / f"expected_{test_id}.txt"
+input_files = sorted(INPUT_DIR.glob("*.txt"))
+
+@pytest.mark.parametrize("input_file", input_files, ids=lambda p: p.stem)
+def test_cli(input_file):
+    test_id = input_file.stem
+    expected_file = EXPECTED_DIR / f"{test_id}.txt"
 
     command_line = input_file.read_text(encoding="utf-8").strip()
     args = shlex.split(command_line)

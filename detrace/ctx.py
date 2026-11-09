@@ -28,13 +28,13 @@ class PseudoLogger:
 
     def info(self, txt):
         "Prints info text"
-        print(f"INFO {txt}")
+        print(f"[INFO] {txt}")
     def warning(self, txt):
         "Prints warning text"
-        print(f"WARN {txt}")
+        print(f"[WARNING] {txt}")
     def error(self, txt):
         "Prints error text"
-        print(f"ERR {txt}")
+        print(f"[ERROR] {txt}")
 
 @dataclass
 class Context:
